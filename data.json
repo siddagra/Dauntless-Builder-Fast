@@ -3932,6 +3932,30 @@
                 }
             }
         },
+        "Conservation Cell": {
+            "name": "Conservation Cell",
+            "slot": "Fortitude",
+            "variants": {
+                "+1 Conservation Cell": {
+                    "perks": {
+                        "Conservation": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Conservation Cell": {
+                    "perks": {
+                        "Conservation": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Conservation Cell": {
+                    "perks": {
+                        "Conservation": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
         "Cunning Cell": {
             "name": "Cunning Cell",
             "slot": "Finesse",
@@ -3999,6 +4023,30 @@
                 "+3 Drop Cell": {
                     "perks": {
                         "Drop": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
+        "Earth Cell": {
+            "name": "Earth Cell",
+            "slot": "Brutality",
+            "variants": {
+                "+1 Earth Cell": {
+                    "perks": {
+                        "Earth": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Earth Cell": {
+                    "perks": {
+                        "Earth": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Earth Cell": {
+                    "perks": {
+                        "Earth": 3
                     },
                     "rarity": "epic"
                 }
@@ -4119,6 +4167,30 @@
                 "+3 Evasive Fury Cell": {
                     "perks": {
                         "Evasive Fury": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
+        "Fire Cell": {
+            "name": "Fire Cell",
+            "slot": "Finesse",
+            "variants": {
+                "+1 Fire Cell": {
+                    "perks": {
+                        "Fire": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Fire Cell": {
+                    "perks": {
+                        "Fire": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Fire Cell": {
+                    "perks": {
+                        "Fire": 3
                     },
                     "rarity": "epic"
                 }
@@ -4263,6 +4335,54 @@
                 "+3 Guardian Cell": {
                     "perks": {
                         "Guardian": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
+        "Impulse Cell": {
+            "name": "Impulse Cell",
+            "slot": "Finesse",
+            "variants": {
+                "+1 Impulse Cell": {
+                    "perks": {
+                        "Impulse": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Impulse Cell": {
+                    "perks": {
+                        "Impulse": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Impulse Cell": {
+                    "perks": {
+                        "Impulse": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
+        "Inertia Cell": {
+            "name": "Inertia Cell",
+            "slot": "Alacrity",
+            "variants": {
+                "+1 Inertia Cell": {
+                    "perks": {
+                        "Inertia": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Inertia Cell": {
+                    "perks": {
+                        "Inertia": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Inertia Cell": {
+                    "perks": {
+                        "Inertia": 3
                     },
                     "rarity": "epic"
                 }
@@ -5180,6 +5300,30 @@
                 }
             }
         },
+        "Water Cell": {
+            "name": "Water Cell",
+            "slot": "Fortitude",
+            "variants": {
+                "+1 Water Cell": {
+                    "perks": {
+                        "Water": 1
+                    },
+                    "rarity": "uncommon"
+                },
+                "+2 Water Cell": {
+                    "perks": {
+                        "Water": 2
+                    },
+                    "rarity": "rare"
+                },
+                "+3 Water Cell": {
+                    "perks": {
+                        "Water": 3
+                    },
+                    "rarity": "epic"
+                }
+            }
+        },
         "Weighted Strikes Cell": {
             "name": "Weighted Strikes Cell",
             "slot": "Brutality",
@@ -5347,8 +5491,8 @@
         }
     },
     "misc": {
-        "dauntless_version": "1.13.0",
-        "patchnotes_version_string": "1-13-0"
+        "dauntless_version": "1.14.0",
+        "patchnotes_version_string": "1-14-0"
     },
     "omnicells": {
         "Artificer": {
@@ -7143,6 +7287,55 @@
             "name": "Conduit",
             "type": "Insight"
         },
+        "Conservation": {
+            "description": "Gain shields whenever your max movement speed is reduced for any reason.",
+            "effects": {
+                "1": {
+                    "description": "Losing Bonus Movement Speed grants {{shields}} shields for every {{percentMovementSpeedLost}}% Movement Speed lost. This effect cannot happen more than once every 2 seconds.",
+                    "values": {
+                        "percentMovementSpeedLost": 5,
+                        "shields": 20
+                    }
+                },
+                "2": {
+                    "description": "Losing Bonus Movement Speed grants {{shields}} shields for every {{percentMovementSpeedLost}}% Movement Speed lost. This effect cannot happen more than once every 2 seconds.",
+                    "values": {
+                        "percentMovementSpeedLost": 5,
+                        "shields": 30
+                    }
+                },
+                "3": {
+                    "description": "Losing Bonus Movement Speed grants {{shields}} shields for every {{percentMovementSpeedLost}}% Movement Speed lost. This effect cannot happen more than once every 2 seconds.",
+                    "values": {
+                        "percentMovementSpeedLost": 5,
+                        "shields": 40
+                    }
+                },
+                "4": {
+                    "description": "Losing Bonus Movement Speed grants {{shields}} shields for every {{percentMovementSpeedLost}}% Movement Speed lost. This effect cannot happen more than once every 2 seconds.",
+                    "values": {
+                        "percentMovementSpeedLost": 5,
+                        "shields": 60
+                    }
+                },
+                "5": {
+                    "description": "Losing Bonus Movement Speed grants {{shields}} shields for every {{percentMovementSpeedLost}}% Movement Speed lost. This effect cannot happen more than once every 2 seconds.",
+                    "values": {
+                        "percentMovementSpeedLost": 5,
+                        "shields": 80
+                    }
+                },
+                "6": {
+                    "description": "Losing Bonus Movement Speed grants {{shields}} shields for every {{percentMovementSpeedLost}}% Movement Speed lost. This effect cannot happen more than once every 2 seconds.",
+                    "values": {
+                        "percentMovementSpeedLost": 5,
+                        "shields": 100
+                    }
+                }
+            },
+            "name": "Conservation",
+            "type": "Fortitude"
+        },
         "Cunning": {
             "description": "Grants a chance to critically strike, increasing damage dealt.",
             "effects": {
@@ -7292,6 +7485,68 @@
             },
             "name": "Drop",
             "type": "Insight"
+        },
+        "Earth": {
+            "description": "Weaponize your shields, detonating them with attacks to deal damage to behemoths.",
+            "effects": {
+                "1": {
+                    "description": [
+                        "Hitting a Behemoth with a weapon attack while shields are over 200 will detonate all your shields, depleting them and dealing damage equals to {{percentShieldDamage}}% of the value of the removed shield.",
+                        null
+                    ],
+                    "values": {
+                        "percentShieldDamage": 100
+                    }
+                },
+                "2": {
+                    "description": [
+                        "Hitting a Behemoth with a weapon attack while shields are over 200 will detonate all your shields, depleting them and dealing damage equals to {{percentShieldDamage}}% of the value of the removed shield.",
+                        null
+                    ],
+                    "values": {
+                        "percentShieldDamage": 150
+                    }
+                },
+                "3": {
+                    "description": [
+                        "Hitting a Behemoth with a weapon attack while shields are over 200 will detonate all your shields, depleting them and dealing damage equals to {{percentShieldDamage}}% of the value of the removed shield.",
+                        null
+                    ],
+                    "values": {
+                        "percentShieldDamage": 200
+                    }
+                },
+                "4": {
+                    "description": [
+                        "Hitting a Behemoth with a weapon attack while shields are over 200 will detonate all your shields, depleting them and dealing damage equals to {{percentShieldDamage}}% of the value of the removed shield.",
+                        null
+                    ],
+                    "values": {
+                        "percentShieldDamage": 300
+                    }
+                },
+                "5": {
+                    "description": [
+                        "Hitting a Behemoth with a weapon attack while shields are over 200 will detonate all your shields, depleting them and dealing damage equals to {{percentShieldDamage}}% of the value of the removed shield.",
+                        null
+                    ],
+                    "values": {
+                        "percentShieldDamage": 400
+                    }
+                },
+                "6": {
+                    "description": [
+                        "Hitting a Behemoth with a weapon attack while shields are over 200 will detonate all your shields, depleting them and dealing damage equals to {{percentShieldDamage}}% of the value of the removed shield.",
+                        "After Detonating your shield, gain a {{shieldBack}} health shield"
+                    ],
+                    "values": {
+                        "percentShieldDamage": 400,
+                        "shieldBack": 100
+                    }
+                }
+            },
+            "name": "Earth",
+            "type": "Brutality"
         },
         "Endurance": {
             "description": "Increases Max Stamina.",
@@ -7513,6 +7768,85 @@
             },
             "name": "Evasive Fury",
             "type": "Alacrity"
+        },
+        "Fire": {
+            "description": "Fight like Fire. Gain increased movement speed and attack speed at all times, but lose health as you damage behemoths.",
+            "effects": {
+                "1": {
+                    "description": [
+                        "Gain {{percentIncreasedAttackSpeed}}% increased Attack Speed",
+                        "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed",
+                        "On hitting a behemoth with a weapon attack, lose life equal to {{percentHitLifeLoss}}% of your max health."
+                    ],
+                    "values": {
+                        "percentHitLifeLoss": 1,
+                        "percentIncreasedAttackSpeed": 5,
+                        "percentIncreasedMovementSpeed": 5
+                    }
+                },
+                "2": {
+                    "description": [
+                        "Gain {{percentIncreasedAttackSpeed}}% increased Attack Speed",
+                        "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed",
+                        "On hitting a behemoth with a weapon attack, lose life equal to {{percentHitLifeLoss}}% of your max health."
+                    ],
+                    "values": {
+                        "percentHitLifeLoss": 2,
+                        "percentIncreasedAttackSpeed": 7.5,
+                        "percentIncreasedMovementSpeed": 10
+                    }
+                },
+                "3": {
+                    "description": [
+                        "Gain {{percentIncreasedAttackSpeed}}% increased Attack Speed",
+                        "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed",
+                        "On hitting a behemoth with a weapon attack, lose life equal to {{percentHitLifeLoss}}% of your max health."
+                    ],
+                    "values": {
+                        "percentHitLifeLoss": 3,
+                        "percentIncreasedAttackSpeed": 10,
+                        "percentIncreasedMovementSpeed": 15
+                    }
+                },
+                "4": {
+                    "description": [
+                        "Gain {{percentIncreasedAttackSpeed}}% increased Attack Speed",
+                        "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed",
+                        "On hitting a behemoth with a weapon attack, lose life equal to {{percentHitLifeLoss}}% of your max health."
+                    ],
+                    "values": {
+                        "percentHitLifeLoss": 4,
+                        "percentIncreasedAttackSpeed": 12.5,
+                        "percentIncreasedMovementSpeed": 20
+                    }
+                },
+                "5": {
+                    "description": [
+                        "Gain {{percentIncreasedAttackSpeed}}% increased Attack Speed",
+                        "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed",
+                        "On hitting a behemoth with a weapon attack, lose life equal to {{percentHitLifeLoss}}% of your max health."
+                    ],
+                    "values": {
+                        "percentHitLifeLoss": 5,
+                        "percentIncreasedAttackSpeed": 15,
+                        "percentIncreasedMovementSpeed": 25
+                    }
+                },
+                "6": {
+                    "description": [
+                        "Gain {{percentIncreasedAttackSpeed}}% increased Attack Speed",
+                        "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed",
+                        "On hitting a behemoth with a weapon attack, lose life equal to {{percentHitLifeLoss}}% of your max health."
+                    ],
+                    "values": {
+                        "percentHitLifeLoss": 5,
+                        "percentIncreasedAttackSpeed": 20,
+                        "percentIncreasedMovementSpeed": 30
+                    }
+                }
+            },
+            "name": "Fire",
+            "type": "Finesse"
         },
         "Fireproof": {
             "description": "Protects against being set on fire.",
@@ -7846,6 +8180,122 @@
             },
             "name": "Guardian",
             "type": "Fortitude"
+        },
+        "Impulse": {
+            "description": "Critical Damage is increased based on Movement Speed.",
+            "effects": {
+                "1": {
+                    "description": "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed. Critical hit damage is increased by {{percentCriticalHitDamage}}% for every {{percentCriticalHitDamageIncreaseForEveryXMovementSpeed}}% increased Movement Speed, benefiting from up to {{percentUpToMovementSpeed}}% increased Movement Speed.",
+                    "values": {
+                        "percentCriticalHitDamage": 1,
+                        "percentCriticalHitDamageIncreaseForEveryXMovementSpeed": 5,
+                        "percentIncreasedMovementSpeed": 10,
+                        "percentUpToMovementSpeed": 50
+                    }
+                },
+                "2": {
+                    "description": "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed. Critical hit damage is increased by {{percentCriticalHitDamage}}% for every {{percentCriticalHitDamageIncreaseForEveryXMovementSpeed}}% increased Movement Speed, benefiting from up to {{percentUpToMovementSpeed}}% increased Movement Speed.",
+                    "values": {
+                        "percentCriticalHitDamage": 2.5,
+                        "percentCriticalHitDamageIncreaseForEveryXMovementSpeed": 5,
+                        "percentIncreasedMovementSpeed": 10,
+                        "percentUpToMovementSpeed": 50
+                    }
+                },
+                "3": {
+                    "description": "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed. Critical hit damage is increased by {{percentCriticalHitDamage}}% for every {{percentCriticalHitDamageIncreaseForEveryXMovementSpeed}}% increased Movement Speed, benefiting from up to {{percentUpToMovementSpeed}}% increased Movement Speed.",
+                    "values": {
+                        "percentCriticalHitDamage": 4,
+                        "percentCriticalHitDamageIncreaseForEveryXMovementSpeed": 5,
+                        "percentIncreasedMovementSpeed": 10,
+                        "percentUpToMovementSpeed": 50
+                    }
+                },
+                "4": {
+                    "description": "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed. Critical hit damage is increased by {{percentCriticalHitDamage}}% for every {{percentCriticalHitDamageIncreaseForEveryXMovementSpeed}}% increased Movement Speed, benefiting from up to {{percentUpToMovementSpeed}}% increased Movement Speed.",
+                    "values": {
+                        "percentCriticalHitDamage": 6,
+                        "percentCriticalHitDamageIncreaseForEveryXMovementSpeed": 5,
+                        "percentIncreasedMovementSpeed": 10,
+                        "percentUpToMovementSpeed": 50
+                    }
+                },
+                "5": {
+                    "description": "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed. Critical hit damage is increased by {{percentCriticalHitDamage}}% for every {{percentCriticalHitDamageIncreaseForEveryXMovementSpeed}}% increased Movement Speed, benefiting from up to {{percentUpToMovementSpeed}}% increased Movement Speed.",
+                    "values": {
+                        "percentCriticalHitDamage": 8,
+                        "percentCriticalHitDamageIncreaseForEveryXMovementSpeed": 5,
+                        "percentIncreasedMovementSpeed": 10,
+                        "percentUpToMovementSpeed": 50
+                    }
+                },
+                "6": {
+                    "description": "Gain {{percentIncreasedMovementSpeed}}% increased Movement Speed. Critical hit damage is increased by {{percentCriticalHitDamage}}% for every {{percentCriticalHitDamageIncreaseForEveryXMovementSpeed}}% increased Movement Speed, benefiting from up to {{percentUpToMovementSpeed}}% increased Movement Speed.",
+                    "values": {
+                        "percentCriticalHitDamage": 10,
+                        "percentCriticalHitDamageIncreaseForEveryXMovementSpeed": 5,
+                        "percentIncreasedMovementSpeed": 10,
+                        "percentUpToMovementSpeed": 50
+                    }
+                }
+            },
+            "name": "Impulse",
+            "type": "Finesse"
+        },
+        "Inertia": {
+            "description": "Increase critical chance steadily while sprinting.",
+            "effects": {
+                "1": {
+                    "description": "While Sprinting, build up to {{percentIncreasedCriticalStrikeChance}}% increased critical chance over {{criticalChanceBuildupTime}} seconds. This critical chance lasts for {{duration}} seconds or until critical damage is dealt.",
+                    "values": {
+                        "criticalChanceBuildupTime": 4,
+                        "duration": 2,
+                        "percentIncreasedCriticalStrikeChance": 10
+                    }
+                },
+                "2": {
+                    "description": "While Sprinting, build up to {{percentIncreasedCriticalStrikeChance}}% increased critical chance over {{criticalChanceBuildupTime}} seconds. This critical chance lasts for {{duration}} seconds or until critical damage is dealt.",
+                    "values": {
+                        "criticalChanceBuildupTime": 4,
+                        "duration": 2,
+                        "percentIncreasedCriticalStrikeChance": 20
+                    }
+                },
+                "3": {
+                    "description": "While Sprinting, build up to {{percentIncreasedCriticalStrikeChance}}% increased critical chance over {{criticalChanceBuildupTime}} seconds. This critical chance lasts for {{duration}} seconds or until critical damage is dealt.",
+                    "values": {
+                        "criticalChanceBuildupTime": 4,
+                        "duration": 2,
+                        "percentIncreasedCriticalStrikeChance": 30
+                    }
+                },
+                "4": {
+                    "description": "While Sprinting, build up to {{percentIncreasedCriticalStrikeChance}}% increased critical chance over {{criticalChanceBuildupTime}} seconds. This critical chance lasts for {{duration}} seconds or until critical damage is dealt.",
+                    "values": {
+                        "criticalChanceBuildupTime": 4,
+                        "duration": 2,
+                        "percentIncreasedCriticalStrikeChance": 50
+                    }
+                },
+                "5": {
+                    "description": "While Sprinting, build up to {{percentIncreasedCriticalStrikeChance}}% increased critical chance over {{criticalChanceBuildupTime}} seconds. This critical chance lasts for {{duration}} seconds or until critical damage is dealt.",
+                    "values": {
+                        "criticalChanceBuildupTime": 4,
+                        "duration": 2,
+                        "percentIncreasedCriticalStrikeChance": 76
+                    }
+                },
+                "6": {
+                    "description": "While Sprinting, build up to {{percentIncreasedCriticalStrikeChance}}% increased critical chance over {{criticalChanceBuildupTime}} seconds. This critical chance lasts for {{duration}} seconds or until critical damage is dealt.",
+                    "values": {
+                        "criticalChanceBuildupTime": 4,
+                        "duration": 2,
+                        "percentIncreasedCriticalStrikeChance": 100
+                    }
+                }
+            },
+            "name": "Inertia",
+            "type": "Alacrity"
         },
         "Insulated": {
             "description": "Protects against Shocked status effect. At later ranks, allows you to  attack electric shields.",
@@ -9351,42 +9801,42 @@
                 "1": {
                     "description": "+{{percentMoveSpeed}}% movement speed and {{percentSprintCost}}% reduced sprint cost",
                     "values": {
-                        "percentMoveSpeed": 10,
+                        "percentMoveSpeed": 5,
                         "percentSprintCost": -10
                     }
                 },
                 "2": {
                     "description": "+{{percentMoveSpeed}}% movement speed and {{percentSprintCost}}% reduced sprint cost",
                     "values": {
-                        "percentMoveSpeed": 15,
+                        "percentMoveSpeed": 7.5,
                         "percentSprintCost": -15
                     }
                 },
                 "3": {
                     "description": "+{{percentMoveSpeed}}% movement speed and {{percentSprintCost}}% reduced sprint cost",
                     "values": {
-                        "percentMoveSpeed": 20,
+                        "percentMoveSpeed": 10,
                         "percentSprintCost": -20
                     }
                 },
                 "4": {
                     "description": "+{{percentMoveSpeed}}% movement speed and {{percentSprintCost}}% reduced sprint cost",
                     "values": {
-                        "percentMoveSpeed": 25,
+                        "percentMoveSpeed": 12.5,
                         "percentSprintCost": -25
                     }
                 },
                 "5": {
                     "description": "+{{percentMoveSpeed}}% movement speed and {{percentSprintCost}}% reduced sprint cost",
                     "values": {
-                        "percentMoveSpeed": 30,
-                        "percentSprintCost": -35
+                        "percentMoveSpeed": 15,
+                        "percentSprintCost": -30
                     }
                 },
                 "6": {
-                    "description": "+{{percentMoveSpeed}}% movement speed and {{percentSprintCost}} reduced sprint cost",
+                    "description": "+{{percentMoveSpeed}}% movement speed and {{percentSprintCost}}% reduced sprint cost",
                     "values": {
-                        "percentMoveSpeed": 35,
+                        "percentMoveSpeed": 17.5,
                         "percentSprintCost": -35
                     }
                 }
@@ -9864,6 +10314,49 @@
                 }
             },
             "name": "Warmth",
+            "type": "Fortitude"
+        },
+        "Water": {
+            "description": "Move like Water. Dodging through a Behemoth's attacks grants resolve and damage reduction against the next one.",
+            "effects": {
+                "1": {
+                    "description": "After dodging through a Behemoth's Attack, you will be immune to stagger and take {{percentDamageReduction}}% less damage from the next Behemoth attack within 45 seconds.",
+                    "values": {
+                        "percentDamageReduction": 10
+                    }
+                },
+                "2": {
+                    "description": "After dodging through a Behemoth's Attack, you will be immune to stagger and take {{percentDamageReduction}}% less damage from the next Behemoth attack within 45 seconds.",
+                    "values": {
+                        "percentDamageReduction": 20
+                    }
+                },
+                "3": {
+                    "description": "After dodging through a Behemoth's Attack, you will be immune to stagger and take {{percentDamageReduction}}% less damage from the next Behemoth attack within 45 seconds.",
+                    "values": {
+                        "percentDamageReduction": 30
+                    }
+                },
+                "4": {
+                    "description": "After dodging through a Behemoth's Attack, you will be immune to stagger and take {{percentDamageReduction}}% less damage from the next Behemoth attack within 45 seconds.",
+                    "values": {
+                        "percentDamageReduction": 60
+                    }
+                },
+                "5": {
+                    "description": "After dodging through a Behemoth's Attack, you will be immune to stagger and take {{percentDamageReduction}}% less damage from the next Behemoth attack within 45 seconds.",
+                    "values": {
+                        "percentDamageReduction": 80
+                    }
+                },
+                "6": {
+                    "description": "After dodging through a Behemoth's Attack, you will be immune to stagger and take {{percentDamageReduction}}% less damage from the next Behemoth attack within 45 seconds.",
+                    "values": {
+                        "percentDamageReduction": 100
+                    }
+                }
+            },
+            "name": "Water",
             "type": "Fortitude"
         },
         "Weighted Strikes": {
@@ -16463,7 +16956,7 @@
             "damage": "Slashing",
             "description": "The sword once used by Silver Nikola, Queen Linnea's ancestor.",
             "elemental": "Frost",
-            "icon": "/assets/icons/weapons/generic/SilverSword.png",
+            "icon": "/assets/icons/weapons/event/SilverSword.png",
             "name": "Silver Sword",
             "perks": [
                 {
@@ -18410,6 +18903,80 @@
                     "values": {
                         "damage": 200
                     }
+                }
+            ]
+        },
+        "The Golden Claws": {
+            "cells": [
+                "Alacrity",
+                "Finesse"
+            ],
+            "damage": "Blunt",
+            "description": "A treasured pair of pugilist weapons once thought lost to time.",
+            "elemental": "Umbral",
+            "icon": "/assets/icons/weapons/event/TheGoldenClaws.png",
+            "name": "The Golden Claws",
+            "perks": [
+                {
+                    "name": "Bladestorm",
+                    "powerSurged": false,
+                    "value": 1
+                },
+                {
+                    "name": "Bladestorm",
+                    "powerSurged": true,
+                    "value": 3
+                },
+                {
+                    "name": "Galvanized",
+                    "powerSurged": true,
+                    "value": 3
+                }
+            ],
+            "power": {
+                "base": 10,
+                "powerSurged": 120
+            },
+            "tags": [
+                "Event"
+            ],
+            "type": "Aether Strikers",
+            "unique_effects": [
+                {
+                    "description": "+{{percentShield}}% Shield",
+                    "name": "Passive",
+                    "powerSurged": false,
+                    "title": "Passive",
+                    "values": {
+                        "percentShield": 10
+                    }
+                },
+                {
+                    "description": "+{{percentPartDamage}}% Part Damage -{{reducedMaxHealth}} max health",
+                    "name": "Passive",
+                    "powerSurged": true,
+                    "title": "Passive",
+                    "values": {
+                        "percentPartDamage": 30,
+                        "reducedMaxHealth": 200
+                    }
+                },
+                {
+                    "description": "After dodging through an attack, your next attack within 5 seconds deals +{{percentPartDamage}}% part damage After dodging through an attack, your next attack within 5 seconds deals +{{staggerDamage}} stagger damage While below 30% of your maximum health, gain +{{percentAttackSpeed}}% attack speed",
+                    "name": "UniqueEffect",
+                    "powerSurged": true,
+                    "values": {
+                        "percentAttackSpeed": 15,
+                        "percentPartDamage": 150,
+                        "staggerDamage": 150
+                    }
+                },
+                {
+                    "description": "Since this is a time limited event weapon and it features a very complex upgrade path with multiple levels we decided to not support all levels except for the maximum one (power surged here) on Dauntless Builder.",
+                    "icon": "/assets/icons/generic/nope.png",
+                    "name": "Unsupported",
+                    "powerSurged": false,
+                    "title": "Disclaimer"
                 }
             ]
         },
